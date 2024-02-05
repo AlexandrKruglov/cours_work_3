@@ -1,6 +1,6 @@
-
 class Operation:
-    def __init__(self, operation_id, date, state, operation_amount, name_amount, description, operation_to, operation_from):
+    def __init__(self, operation_id, date, state, operation_amount, name_amount, description, operation_to,
+                 operation_from):
         self.operation_id = operation_id
         self.date = date
         self.state = state
@@ -15,9 +15,7 @@ class Operation:
                 f"{self.operation_amount}, {self.name_amount}, {self.description},"
                 f"{self.operation_to}, {self.operation_from})")
 
-
-
-    def check_opration_state(self):
+    def check_operation_state(self):
         if self.state == "EXECUTED":
             return True
         elif self.state == "CANCELED":
