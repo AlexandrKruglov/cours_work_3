@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa531734-bd4c-4116-bebf-292189168619" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     "last_opened_file_path": "/home/alexandr/PycharmProjects/sky_python/course_work_2_kruglov_a_s"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_func.py">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Account_transactions" />
       <option name="ENV_FILES" value="" />
@@ -128,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_func.py" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Python tests in test_func.py" />
         <item itemvalue="Python tests.Python tests for test_func.test_choos_executed_operation" />
         <item itemvalue="Python tests.Python tests for test_func.test_return_date" />
         <item itemvalue="Python tests.Python tests for test_func.test_make_list_opration_object" />
@@ -152,7 +152,20 @@
       <option name="presentableId" value="Default" />
       <updated>1706735805565</updated>
     </task>
+    <task id="LOCAL-00001" summary="убрал лишний принт">
+      <option name="closed" value="true" />
+      <created>1707266422898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707266422898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="убрал лишний принт" />
+    <option name="LAST_COMMIT_MESSAGE" value="убрал лишний принт" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
