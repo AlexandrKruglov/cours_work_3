@@ -49,7 +49,6 @@ def choos_executed_operation(list_op):
     '''
     executed_list_object = []
     for example in list_op:
-        print(example)
         if example.check_operation_state() == True:
             executed_list_object.append(example)
         else:
