@@ -1,15 +1,12 @@
 import json
 import operations_cl
-from config import OPERATION_JSON
-
-path_oper = OPERATION_JSON
 
 
-def get_operations(oper):
+def get_operations(js_path):
     '''
     получаем список из json файла
     '''
-    with open(oper) as file:
+    with open(js_path) as file:
         operation_list = json.load(file)
     return operation_list
 
@@ -31,10 +28,7 @@ def make_list_opration_object(oper_list):
     return operation_object_list
 
 
-operation_object_list = make_list_opration_object(get_operations(path_oper))
-
-
-def sorted_list():
+def sorted_list(operation_object_list):
     '''
   сортируем список операций по дате
     '''
@@ -98,13 +92,10 @@ def add_star_to_chek(chek):
     return new_chek
 
 
-def output_operation():
+def output_operation(list_operation):
     '''
     вывод операции в нужном формате
     '''
-    data = sorted_list()  # список отсортираванный по времени
-    data_executed = choos_executed_operation(data)  # список только выполненых операций
-    list_operation = slice_last_operation(data_executed)  # срез последних 5 операций
     for item in list_operation:
         print(f"{item.return_date()} {item.description}")
         if item.operation_from == "":
