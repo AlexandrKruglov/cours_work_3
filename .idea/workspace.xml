@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa531734-bd4c-4116-bebf-292189168619" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/operations.json" beforeDir="false" afterPath="$PROJECT_DIR$/operations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/function/func.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,11 +21,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -42,54 +34,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python tests.Python tests for test_func.TestFunc.executor": "Run",
-    "Python tests.Python tests for test_func.TestFunc.test_make_list_opration_object.executor": "Run",
-    "Python tests.Python tests for test_func.TestFunc.test_slice_last_operation.executor": "Run",
-    "Python tests.Python tests for test_func.test_add_star_to_chek.executor": "Run",
-    "Python tests.Python tests for test_func.test_add_stars_card.executor": "Run",
-    "Python tests.Python tests for test_func.test_check_operation_state.executor": "Run",
     "Python tests.Python tests for test_func.test_choos_executed_operation.executor": "Run",
-    "Python tests.Python tests for test_func.test_dd_star_to_chek.executor": "Run",
-    "Python tests.Python tests for test_func.test_make_list_operation.executor": "Run",
-    "Python tests.Python tests for test_func.test_make_list_operation_object.executor": "Run",
-    "Python tests.Python tests for test_func.test_make_list_opration_object.executor": "Run",
-    "Python tests.Python tests for test_func.test_return_date.executor": "Run",
-    "Python tests.Python tests for test_func.test_slice_last_operation.executor": "Run",
-    "Python tests.Python tests in test.executor": "Run",
     "Python tests.Python tests in test_func.py.executor": "Run",
-    "Python.func.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "test",
-    "last_opened_file_path": "/home/alexandr/PycharmProjects/Account_transactions",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+    "last_opened_file_path": "/home/alexandr/PycharmProjects/sky_python/course_work_2_kruglov_a_s"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/test" />
-      <recent name="$PROJECT_DIR$/function" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_func.test_choos_executed_operation">
-    <configuration name="Python tests for test_func.test_check_operation_state" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_func.py">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Account_transactions" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/function" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_func.test_check_operation_state&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/function/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_func.test_choos_executed_operation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -154,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_func.test_choos_executed_operation" />
         <item itemvalue="Python tests.Python tests in test_func.py" />
-        <item itemvalue="Python tests.Python tests for test_func.test_make_list_opration_object" />
-        <item itemvalue="Python tests.Python tests for test_func.test_check_operation_state" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Python tests for test_func.test_choos_executed_operation" />
         <item itemvalue="Python tests.Python tests for test_func.test_return_date" />
+        <item itemvalue="Python tests.Python tests for test_func.test_make_list_opration_object" />
       </list>
     </recent_temporary>
   </component>
@@ -178,55 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1706735805565</updated>
     </task>
-    <task id="LOCAL-00001" summary="start">
-      <option name="closed" value="true" />
-      <created>1706736706094</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1706736706094</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add function">
-      <option name="closed" value="true" />
-      <created>1706971247254</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1706971247254</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add requirements.txt">
-      <option name="closed" value="true" />
-      <created>1706984700456</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1706984700456</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add requirements.txt">
-      <option name="closed" value="true" />
-      <created>1707095316569</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1707095316569</updated>
-    </task>
-    <task id="LOCAL-00005" summary="исправлен funk&#10;коректный вывод счетов&#10;иправлен main &#10;добавлены два теста">
-      <option name="closed" value="true" />
-      <created>1707256362991</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1707256362991</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="start" />
-    <MESSAGE value="add function" />
-    <MESSAGE value="add requirements.txt" />
-    <MESSAGE value="исправлен funk&#10;коректный вывод счетов&#10;иправлен main &#10;добавлены два теста" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправлен funk&#10;коректный вывод счетов&#10;иправлен main &#10;добавлены два теста" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
