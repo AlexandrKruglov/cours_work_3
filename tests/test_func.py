@@ -1,7 +1,6 @@
-import os.path
 from function import func
-from function import operations_cl
-from operations_cl import Operation
+from function.operations_cl import Operation
+import  pytest
 
 def test_slice_last_operation():
     assert func.slice_last_operation([1, 2, 3, 4, 5, 6, 7, 8]) == [8, 7, 6, 5, 4]
@@ -46,8 +45,26 @@ def test_make_list_opration_object():
     assert isinstance(operation, Operation)
 
 
-def test_choos_executed_operation():
 
-    assert func.choos_executed_operation([Operation(556488059, '2019-05-17T01:50:00.166954', 'CANCELED', '74604.56', 'USD', 'Перевод с карты на карту','Visa Gold 8702717057933248', 'МИР 8021883699486544'),
-                                          Operation(179194306, '2019-05-19T12:51:49.023880', 'EXECUTED', '6381.58', 'USD', 'Перевод организации','Счет 58518872592028002662', 'МИР 5211277418228469')]) == [Operation(179194306, '2019-05-19T12:51:49.023880', 'EXECUTED', '6381.58', 'USD', 'Перевод организации','Счет 58518872592028002662', 'МИР 5211277418228469')]
+
+#Тут конечно прекрасно вписываются фикстуры:
+
+@pytest.fixture
+def op_1():
+    return Operation(556488059, '2019-05-17T01:50:00.166954', 'CANCELED', '74604.56',
+              'USD', 'Перевод с карты на карту', 'Visa Gold 8702717057933248',
+              'МИР 8021883699486544')
+
+@pytest.fixture
+def op_2():
+    return Operation(179194306, '2019-05-19T12:51:49.023880', 'EXECUTED', '6381.58',
+              'USD', 'Перевод организации', 'Счет 58518872592028002662',
+              'МИР 5211277418228469')
+
+def test_choos_executed_operation(op_1, op_2):
+    assert func.choos_executed_operation([op_1, op_2]) == [op_2]
+
+
+def test_return_date(op_1):
+    assert op_1.return_date() == "17.05.2019"
 

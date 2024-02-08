@@ -1,5 +1,5 @@
-import func
-from config import OPERATION_JSON
+from function import func
+from function.config import OPERATION_JSON
 
 operations_data = func.get_operations(OPERATION_JSON)          # чтение json файла
 operation_object_list = func.make_list_opration_object(operations_data)  # создание списка объектов класса Operation
