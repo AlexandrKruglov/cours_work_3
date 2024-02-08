@@ -1,6 +1,4 @@
-import os.path
 from function import func
-from function import operations_cl
 from operations_cl import Operation
 
 def test_slice_last_operation():
