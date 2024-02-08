@@ -1,5 +1,5 @@
 import json
-import operations_cl
+from function import operations_cl
 
 
 def get_operations(js_path):
